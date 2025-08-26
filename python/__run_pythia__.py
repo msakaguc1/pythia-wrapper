@@ -4,7 +4,7 @@
 
 import os, ctypes, sys, inspect, icecube
 from os.path import expandvars, dirname, abspath, join, expanduser
-from icecube import icetray, dataio, 
+from icecube import icetray, dataclasses, phys_services, dataio, 
 from icecube.icetray import I3Logger
 
 I3Logger.global_logger.set_level(I3LogLevel.LOG_INFO)
